@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+}
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: blue;
+
+}
+
+@media only screen and (max-width:360px) {
+    
+    .container{
+        display: block;
+    }
+    .box{
+        display: block;
+        background-color: aqua;
+    }
+}
